@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+    border-style: dotted;
+    }
+p {
+    text-align: center;
+    border-radius: 25px;
+    background: lightgrey;
+    }
+img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    }
+h2{
+    float: right;
+    }
