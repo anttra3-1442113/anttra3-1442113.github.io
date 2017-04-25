@@ -2,9 +2,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="jobApplicationForm.css">
 	<meta charset="utf-8">
 	<title>Job Application</title>
-	<link rel="stylesheet" type="text/css" href="jobApplicationForm.css">
 </head>
 <body>
 
@@ -172,21 +172,40 @@
 
 	<input type="submit" value="Submit form">
 
-	<input type="text" name="firstname"><br> Last name: <input type="text" name="lastname">
+	<h1> Education History </h1>
 
-	<input type="password" name="pwd">
+	University: <input type="text" name="firstname"><br>
+	City: <input type="text" name="lastname">
 
-	<textarea name="essay">Blah blah blah...</textarea>
+		<form action="">
+			State: <input type="text" name="user"><br>
+			Year of Graduation: <input type="password" name="password">
+		</form>
 
-	<input type="radio" name="answer" value="yes"> Yes<br> <input type="radio" name="answer" value="no"> No
+	<form action=""> Education Level
+	  <input type="radio" name="gender" value="male"> AA<br>
+	  <input type="radio" name="gender" value="female"> BA<br>
+	  <input type="radio" name="gender" value="other"> Other
+	</form>
 
-	<input type="checkbox" name="vehicle" value="Bike">I have a bike<br> <input type="checkbox" name="vehicle" value="Car">I have a car
+	<textarea> Explain Other </textarea>
 
-	<select name="cars"> <option value="volvo">Volvo</option> <option value="saab">Saab</option> <option value="fiat">Fiat</option> <option value="audi">Audi</option> </select>
+	<form action="/action_page.php">
+	  <input type="checkbox" name="vehicle" value="Bike"> I have a completed school<br>
+	  <input type="checkbox" name="vehicle" value="Car" checked> I am currently in school<br>
+	</form>
 
-	<input type="submit" value="Submit form">
+	Area of Study
+	<select>
+	  <option value="volvo">Business</option>
+	  <option value="saab">Enginerring</option>
+	  <option value="mercedes">Medicine</option>
+	  <option value="audi">Other</option>
+	</select>
 
-	<form name="input" action="html_form_action.asp" method="post"> ... </form>
+	<form>
+	<input type="submit" value="Submit">
+	</form>
 
 </form>
 </body>
